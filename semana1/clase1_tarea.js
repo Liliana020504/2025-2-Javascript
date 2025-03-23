@@ -7,7 +7,6 @@ async function main() {
   const num2 = Number(await ask('Ingresa el segundo número: '));
 
   const suma = num1 + num2;
-<<<<<<< HEAD
   console.log(`la suma de ${num1} + ${num2} es: ${suma}`);
 
   const resta = num1 - num2;
@@ -18,11 +17,6 @@ async function main() {
 
   const division = num1 / num2;
   console.log(`la division de ${num1} / ${num2} es: ${division}`)
-=======
-  const resta = num1 - num2;
-  const multiplicación = num1 * num2;
-  const division = num1 / num2;
->>>>>>> upstream/main
   // TODO: Implementar la resta, multiplicación y división
 
   console.log('Suma:', suma);
